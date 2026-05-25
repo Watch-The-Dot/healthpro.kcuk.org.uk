@@ -1,0 +1,105 @@
+# Copyright (C) 2024 Watch The Dot
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: [HealthPro] Resources 0.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/healthpro-resources\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-01T16:40:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: healthpro-resources\n"
+
+#. Plugin Name of the plugin
+msgid "[HealthPro] Resources"
+msgstr ""
+
+#. Author of the plugin
+msgid "Watch The Dot"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.watchthedot.com/"
+msgstr ""
+
+#: healthpro-resources.php:165
+msgid "Resources Settings"
+msgstr ""
+
+#: healthpro-resources.php:166
+msgid "Settings"
+msgstr ""
+
+#: healthpro-resources.php:269
+#: healthpro-resources.php:270
+msgid "Resources"
+msgstr ""
+
+#: src/PostTypes/Resources.php:31
+msgctxt "post type general name"
+msgid "Resources"
+msgstr ""
+
+#: src/PostTypes/Resources.php:32
+msgctxt "post type singular name"
+msgid "Resource"
+msgstr ""
+
+#: src/PostTypes/Resources.php:33
+msgctxt "admin menu"
+msgid "Resources"
+msgstr ""
+
+#: src/PostTypes/Resources.php:34
+msgctxt "add new on admin bar"
+msgid "Resource"
+msgstr ""
+
+#: src/PostTypes/Resources.php:35
+msgctxt "resource"
+msgid "Add New"
+msgstr ""
+
+#: src/PostTypes/Resources.php:36
+msgid "Add New Resource"
+msgstr ""
+
+#: src/PostTypes/Resources.php:37
+msgid "New Resource"
+msgstr ""
+
+#: src/PostTypes/Resources.php:38
+msgid "Edit Resource"
+msgstr ""
+
+#: src/PostTypes/Resources.php:39
+msgid "View Resource"
+msgstr ""
+
+#: src/PostTypes/Resources.php:40
+msgid "All Resources"
+msgstr ""
+
+#: src/PostTypes/Resources.php:41
+msgid "Search Resources"
+msgstr ""
+
+#: src/PostTypes/Resources.php:42
+msgid "Parent Resources:"
+msgstr ""
+
+#: src/PostTypes/Resources.php:43
+msgid "No resources found."
+msgstr ""
+
+#: src/PostTypes/Resources.php:44
+msgid "No resources found in Trash."
+msgstr ""
+
+#: dist/assets/admin-B7_4paSf.js:1
+msgid "Delete"
+msgstr ""

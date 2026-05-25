@@ -1,0 +1,7 @@
+i.mce-i-hp-cite {
+  font: normal 20px/1 dashicons;
+}
+
+i.mce-i-hp-cite::before {
+  content: "\f13f";
+}

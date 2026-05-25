@@ -1,0 +1,2 @@
+import{o as s}from"./dialog-BESizeQt.js";const a=tinymce.PluginManager;a.add("hp-cite",function(n,l){n.addButton("hp-cite",{title:"Cite",icon:"hp-cite",onclick:async function(){const t=await s();if(!t)return;const{shortcode:o,inline:i}=t;if(i)n.insertContent(o);else{let c=n.selection.getBookmark();const e=n.getBody().lastChild;e&&(n.selection.setCursorLocation(e),n.insertContent(o)),n.selection.moveToBookmark(c)}}})});
+//# sourceMappingURL=tinymce-EpoQZ1mC.js.map

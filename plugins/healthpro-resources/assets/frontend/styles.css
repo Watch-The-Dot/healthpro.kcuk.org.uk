@@ -1,0 +1,42 @@
+.hp-resources--order-form .hp-resources--order-form--item {
+  display: flex;
+  gap: 6px;
+}
+
+.hp-resources--order-form .hp-resources--order-form--item h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hp-resources--order-form .hp-resources--order-form--item img {
+  height: auto;
+  max-width: 6em;
+}
+
+.hp-resources--order-form .form-row {
+  display: flex;
+  gap: 6px;
+}
+
+.hp-resources--order-form .form-row p {
+  flex: 1 1 0;
+}
+
+.hp-resources--order-form .form-row label {
+  display: block;
+}
+
+.hp-resources--order-form .form-row input,
+.hp-resources--order-form .form-row select {
+  width: strech;
+  width: -webkit-fill-available;
+}
+
+.hp-resources--order-form footer {
+  display: flex;
+  padding: 1em;
+}
+
+.hp-resources--order-form footer .hp-resources--order-form--submit {
+  margin-left: auto;
+}

@@ -1,0 +1,2 @@
+const l="healthpro/referencing/openModal",o="healthpro/referencing/closeModal";async function a(){return new Promise((e,t)=>{const n=new Event(l);document.dispatchEvent(n),document.addEventListener(o,c=>e(c.detail),{once:!0})})}function s(e=null,t=!0){const n=new CustomEvent(o,{detail:e===null?null:{shortcode:e,inline:t}});document.dispatchEvent(n)}export{l as O,s as c,a as o};
+//# sourceMappingURL=dialog-BESizeQt.js.map

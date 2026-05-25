@@ -1,0 +1,9 @@
+parameters:
+	level: 4
+	phpVersion: 80100 # PHP 8.1
+	scanDirectories:
+		- includes
+		- third-party
+	paths:
+		- src
+		- resources.php

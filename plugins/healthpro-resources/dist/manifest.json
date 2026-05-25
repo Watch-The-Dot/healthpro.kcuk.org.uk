@@ -1,0 +1,20 @@
+{
+  "assets/admin/index.tsx": {
+    "file": "assets/admin-oLdqHMIu.js",
+    "name": "admin",
+    "src": "assets/admin/index.tsx",
+    "isEntry": true,
+    "css": [
+      "assets/admin-B_SY1GJM.css"
+    ]
+  },
+  "assets/frontend/index.ts": {
+    "file": "assets/frontend-Bll6ecfB.js",
+    "name": "frontend",
+    "src": "assets/frontend/index.ts",
+    "isEntry": true,
+    "css": [
+      "assets/frontend-CA5zmxzh.css"
+    ]
+  }
+}

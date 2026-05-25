@@ -1,0 +1,82 @@
+# Copyright (C) 2024 Dominic Carrington
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress Modules for Divi 0.2.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/divi-bbpress\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-30T11:06:22+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: divi-bbpress\n"
+
+#. Plugin Name of the plugin
+msgid "bbPress Modules for Divi"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds Divi Modules for bbPress"
+msgstr ""
+
+#. Author of the plugin
+msgid "Dominic Carrington"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.watchthedot.com"
+msgstr ""
+
+#: divi-bbpress.php:87
+msgid "Optional"
+msgstr ""
+
+#: includes/Settings/Fields.php:13
+msgid "No"
+msgstr ""
+
+#: includes/Settings/Fields.php:14
+msgid "Yes"
+msgstr ""
+
+#: modules/BBPressModule.php:17
+msgid "Content"
+msgstr ""
+
+#: modules/BBPressModule.php:18
+msgid "Background"
+msgstr ""
+
+#: modules/BBPressModule.php:19
+msgid "Admin Label"
+msgstr ""
+
+#: modules/BBPressModule.php:24
+msgid "Icons"
+msgstr ""
+
+#: modules/Forums/SingleForum/SingleForum.php:29
+#: modules/Replies/SingleReply/SingleReply.php:29
+#: modules/Topics/SingleTopic/SingleTopic.php:29
+#: modules/TopicTags/SingleTag/SingleTag.php:29
+msgid "Use Current Page"
+msgstr ""
+
+#: modules/Forums/SingleForum/SingleForum.php:41
+msgid "Forum"
+msgstr ""
+
+#: modules/Replies/SingleReply/SingleReply.php:41
+msgid "Reply"
+msgstr ""
+
+#: modules/Topics/SingleTopic/SingleTopic.php:41
+msgid "Topic"
+msgstr ""
+
+#: modules/TopicTags/SingleTag/SingleTag.php:41
+msgid "Topic Tag"
+msgstr ""
