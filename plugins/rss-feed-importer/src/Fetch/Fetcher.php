@@ -26,6 +26,8 @@ class Fetcher {
 
     protected Crawler $crawler;
 
+    private const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+
     public function get_result() {
         $result = new FetchResult();
         
@@ -93,7 +95,11 @@ class Fetcher {
     }
 
     private function read_body() {
-        $response = wp_remote_get( $this->url );
+        $response = wp_remote_get( $this->url, [
+            'user-agent' => self::USER_AGENT,
+            'timeout'    => 15,
+        ] );
+
         if ( is_wp_error( $response ) ) {
             throw new FetchException( "Could not access URL.", $response );
         }
@@ -101,6 +107,10 @@ class Fetcher {
         $body = wp_remote_retrieve_body( $response );
         if ( ! $body ) {
             throw new FetchException( "Received an empty body." );
+        }
+
+        if ( str_contains( $body, 'challenges.cloudflare.com' ) || str_contains( $body, 'Enable JavaScript and cookies to continue' ) ) {
+            throw new FetchException( "URL returned a bot-protection challenge page. The article could not be fetched." );
         }
 
         $this->response_body = $body;

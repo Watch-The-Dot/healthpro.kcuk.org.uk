@@ -10,14 +10,20 @@ use WatchTheDot\Plugins\RSSImporter\Model\SyncError;
 use WatchTheDot\Plugins\RSSImporter\Support\OpenGraph;
 
 class SyncFeed {
+
+	private const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+
 	public static function run( $feed_id ) {
 		$feed = Feed::find( $feed_id );
 		if ( ! $feed ) {
 			return;
 		}
 
-		$response = wp_remote_get( $feed->url );
-		$body     = wp_remote_retrieve_body( $response );
+		$response = wp_remote_get( $feed->url, [
+		    'user-agent' => self::USER_AGENT,
+		    'timeout'    => 15,
+		] );
+		$body = wp_remote_retrieve_body( $response );
 		if ( ! $body ) {
 			$response_code    = wp_remote_retrieve_response_code( $response );
 			$response_message = wp_remote_retrieve_response_message( $response );
@@ -25,6 +31,11 @@ class SyncFeed {
 
 			SyncError::create( $feed_id, $message );
 			return;
+		}
+
+		if ( str_contains( $body, 'challenges.cloudflare.com' ) || str_contains( $body, 'Enable JavaScript and cookies to continue' ) ) {
+		    SyncError::create( $feed_id, "Feed URL returned a bot-protection challenge page. The feed could not be fetched." );
+		    return;
 		}
 
 		libxml_use_internal_errors( true );

@@ -85,7 +85,7 @@ class ImportPost {
 			'post_title'   => $result->article_title,
 			'post_content' => $result->article_content,
 			'post_excerpt' => $result->article_excerpt,
-			'post_date'    => $result->article_published->format( 'Y-m-d H:i:s' ),
+			'post_date'    => ( $result->article_published ?? current_datetime() )->format( 'Y-m-d H:i:s' ),
 			'meta_input'   => [
 				'rss-feed-importer_import_meta' => $meta
 			],
