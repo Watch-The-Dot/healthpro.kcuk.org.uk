@@ -24,3 +24,4 @@ themes/*/node_modules/
 
 # And this file itself
 !.gitignore
+!.gitattributes
