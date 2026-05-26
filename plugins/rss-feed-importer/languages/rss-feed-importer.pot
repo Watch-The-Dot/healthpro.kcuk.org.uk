@@ -1,0 +1,194 @@
+# Copyright (C) 2024 Dominic Carrington
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: RSS Feed Importer 0.8.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rss-feed-importer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-01T16:26:59+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: rss-feed-importer\n"
+
+#. Plugin Name of the plugin
+msgid "RSS Feed Importer"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allows importing of news articles from RSS feeds"
+msgstr ""
+
+#. Author of the plugin
+msgid "Dominic Carrington"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.watchthedot.com"
+msgstr ""
+
+#: rss-feed-importer.php:71
+#: rss-feed-importer.php:124
+msgctxt "post status"
+msgid "Imported"
+msgstr ""
+
+#: src/Admin/Errors_ListTable.php:15
+msgid "Date/Time"
+msgstr ""
+
+#: src/Admin/Errors_ListTable.php:16
+#: src/Admin/Feed_ListTable.php:21
+msgid "Feed"
+msgstr ""
+
+#: src/Admin/Errors_ListTable.php:17
+msgid "Message"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:20
+msgid "Name"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:22
+msgid "Posts"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:23
+msgid "Last Synced"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:29
+#: src/Admin/Feed_ListTable.php:152
+msgid "Sync"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:57
+msgid "Feed Title must be defined"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:61
+msgid "Feed URL must be defined"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:65
+msgid "Feed URL must be a valid URL"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:69
+msgid "Feed URL must be less than 100 characters"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:95
+msgid "Successfully added feed"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:108
+msgid "Syncing %d feed"
+msgid_plural "Syncing %d feeds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Feed_ListTable.php:124
+msgid "Successfully Deleted"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:126
+msgid "%d feed"
+msgid_plural "%d feeds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Feed_ListTable.php:193
+#: src/Admin/Posts_ListTable.php:181
+msgid "Pending"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:194
+#: src/Admin/Posts_ListTable.php:182
+msgid "Imported"
+msgstr ""
+
+#: src/Admin/Feed_ListTable.php:195
+#: src/Admin/Posts_ListTable.php:183
+msgid "Rejected"
+msgstr ""
+
+#: src/Admin/ListTable.php:61
+msgid "Please select items"
+msgstr ""
+
+#: src/Admin/Posts_ListTable.php:18
+msgid "Title"
+msgstr ""
+
+#: src/Admin/Posts_ListTable.php:19
+msgid "Source"
+msgstr ""
+
+#: src/Admin/Posts_ListTable.php:20
+msgid "Preview"
+msgstr ""
+
+#: src/Admin/Posts_ListTable.php:21
+msgid "Published At"
+msgstr ""
+
+#: src/Admin/Posts_ListTable.php:124
+#: src/Admin/Posts_ListTable.php:281
+#: src/Settings.php:152
+msgid "Import"
+msgstr ""
+
+#: src/Admin/Posts_ListTable.php:128
+#: src/Admin/Posts_ListTable.php:287
+msgid "Reject"
+msgstr ""
+
+#: src/Admin/Posts_ListTable.php:138
+msgid "Imported %d post"
+msgid_plural "Imported %d posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Posts_ListTable.php:171
+msgid "Rejected %d post"
+msgid_plural "Rejected %d posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Posts_ListTable.php:269
+msgid "Read Article"
+msgstr ""
+
+#: src/Settings.php:48
+msgid "Items per page"
+msgstr ""
+
+#: src/Settings.php:89
+#: src/Settings.php:90
+msgid "RSS Feed Import"
+msgstr ""
+
+#: src/Settings.php:157
+msgid "Feeds"
+msgstr ""
+
+#: src/Settings.php:162
+msgid "Sync errors"
+msgstr ""
+
+#: src/Settings.php:167
+msgid "Settings"
+msgstr ""
+
+#: src/Settings.php:172
+msgid "Changelog"
+msgstr ""
+
+#: template/admin/feeds.php:21
+msgid "Successfully added %s"
+msgstr ""

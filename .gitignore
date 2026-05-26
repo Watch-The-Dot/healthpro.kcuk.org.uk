@@ -11,6 +11,13 @@
 !plugins/healthpro-referencing/**
 !plugins/healthpro-resources/
 !plugins/healthpro-resources/**
+!plugins/rss-feed-importer/
+!plugins/rss-feed-importer/**
+plugins/rss-feed-importer/vendor/
+plugins/rss-feed-importer/node_modules/
+plugins/rss-feed-importer/dist/
+plugins/rss-feed-importer/wp-settings-framework/
+plugins/rss-feed-importer/.psysh.php
 
 # Except our child theme
 !themes/
