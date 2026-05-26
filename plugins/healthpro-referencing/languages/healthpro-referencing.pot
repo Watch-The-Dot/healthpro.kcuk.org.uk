@@ -1,0 +1,31 @@
+# Copyright (C) 2024 Watch The Dot
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: [HealthPro] Referencing 0.3.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/healthpro-referencing\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-06T13:45:27+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: healthpro-referencing\n"
+
+#. Plugin Name of the plugin
+msgid "[HealthPro] Referencing"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds a referencing system using shortcodes and provides quick access via a modal in the Classic Editor"
+msgstr ""
+
+#. Author of the plugin
+msgid "Watch The Dot"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.watchthedot.com"
+msgstr ""

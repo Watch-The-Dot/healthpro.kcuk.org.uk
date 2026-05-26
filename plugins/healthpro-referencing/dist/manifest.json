@@ -1,0 +1,39 @@
+{
+  "_dialog-BESizeQt.js": {
+    "file": "assets/dialog-BESizeQt.js",
+    "name": "dialog"
+  },
+  "assets/popup/index.tsx": {
+    "file": "assets/popup-Ca7peO7h.js",
+    "name": "popup",
+    "src": "assets/popup/index.tsx",
+    "isEntry": true,
+    "imports": [
+      "_dialog-BESizeQt.js"
+    ],
+    "css": [
+      "assets/popup-B_SY1GJM.css"
+    ]
+  },
+  "assets/quicktags.ts": {
+    "file": "assets/quicktags-BrBdvvz_.js",
+    "name": "quicktags",
+    "src": "assets/quicktags.ts",
+    "isEntry": true,
+    "imports": [
+      "_dialog-BESizeQt.js"
+    ]
+  },
+  "assets/tinymce.ts": {
+    "file": "assets/tinymce-EpoQZ1mC.js",
+    "name": "tinymce",
+    "src": "assets/tinymce.ts",
+    "isEntry": true,
+    "imports": [
+      "_dialog-BESizeQt.js"
+    ],
+    "css": [
+      "assets/tinymce-DWMUQuMU.css"
+    ]
+  }
+}

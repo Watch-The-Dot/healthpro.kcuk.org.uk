@@ -1,0 +1,195 @@
+/*
+Theme Name: HealthPro
+Theme URI: 
+Description: 
+Author: Watch The Dot
+Author URI: https://www.watchthedot.com
+Template: Divi
+Version: 1.0.0
+Text Domain: wtd-blank
+*/
+
+/* Contact Form 7 Styling for Divi */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea,
+.wpcf7 select {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.wpcf7 input[type="submit"] {
+  background-color: #246a73;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  float: right;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.wpcf7 input[type="submit"]:hover {
+  background-color: #f1c40f;
+  cursor: pointer;
+}
+
+.wpcf7 form .wpcf7-response-output {
+  border-width: 3px;
+  border-radius: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output,
+.wpcf7 form.payment-required .wpcf7-response-output {
+  border-color: #f47b56;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+  border-color: #00b189;
+}
+
+/* Make the WooCommerce My Account page better looking */
+.woocommerce-account .woocommerce-MyAccount-navigation {
+  float: left;
+  width: 25%;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+  float: right;
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .woocommerce-account .woocommerce-MyAccount-navigation {
+    width: 100%;
+  }
+
+  .woocommerce-account .woocommerce-MyAccount-content {
+    width: 100%;
+  }
+}
+
+.woocommerce-MyAccount-navigation ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.woocommerce-MyAccount-navigation li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid rgba(96, 57, 19, 0.25);
+}
+
+.woocommerce-MyAccount-navigation li:last-child {
+  border-bottom: none;
+}
+
+.woocommerce-MyAccount-navigation li a {
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-transform: uppercase;
+  transition: color 300ms ease-in-out;
+  display: inline-block;
+}
+
+.woocommerce-MyAccount-navigation li a::after {
+  font-family: FontAwesome !important;
+  font-weight: 900 !important;
+  float: right;
+}
+
+.woocommerce-MyAccount-navigation
+  li.woocommerce-MyAccount-navigation-link--dashboard
+  a::after {
+  content: "";
+}
+
+.woocommerce-MyAccount-navigation
+  li.woocommerce-MyAccount-navigation-link--orders
+  a::after {
+  content: "";
+}
+
+.woocommerce-MyAccount-navigation
+  li.woocommerce-MyAccount-navigation-link--edit-address
+  a::after {
+  content: "";
+}
+
+.woocommerce-MyAccount-navigation
+  li.woocommerce-MyAccount-navigation-link--payment-methods
+  a::after {
+  content: "";
+}
+
+.woocommerce-MyAccount-navigation
+  li.woocommerce-MyAccount-navigation-link--edit-account
+  a::after {
+  content: "";
+}
+
+.woocommerce-MyAccount-navigation
+  li.woocommerce-MyAccount-navigation-link--customer-logout
+  a::after {
+  content: "";
+}
+
+.woocommerce-MyAccount-navigation
+  li.woocommerce-MyAccount-navigation-link--downloads
+  a::after {
+  content: "";
+}
+
+.woocommerce-MyAccount-content .button::after {
+  display: none;
+}
+
+/* Add Vertical Menu CSS (Divi) https://themanual.watchthedot.com/snippets/divi-vertical-menu/ */
+.vertical-menu.et_pb_menu .et_pb_menu__menu,
+.vertical-menu.et_pb_fullwidth_menu .et_pb_menu__menu {
+  display: flex !important;
+}
+
+.vertical-menu .et_mobile_nav_menu {
+  display: none !important;
+}
+
+.vertical-menu li {
+  display: block;
+  width: 100%;
+}
+
+.vertical-menu li:first-child {
+  margin-top: 0px !important;
+}
+
+/* Disable Mobile Menu CSS (Divi) https://themanual.watchthedot.com/snippets/divi-disable-mobile-menu/ */
+.wtd-disable-mobile-menu.et_pb_menu .et_pb_menu__menu,
+.wtd-disable-mobile-menu.et_pb_fullwidth_menu .et_pb_menu__menu {
+  display: flex !important;
+}
+
+.wtd-disable-mobile-menu .et_mobile_nav_menu {
+  display: none !important;
+}
+
+/* Add an icon to the left of a block of text within p, span, a */
+.et_pb_text_inner :is(p[data-icon], span[data-icon], a[data-icon]) {
+  display: grid;
+  grid-template-columns: 1.5em 1fr;
+  gap: 0.5em;
+}
+
+.et_pb_text_inner :is(p[data-icon], span[data-icon], a[data-icon])::before {
+  content: attr(data-icon);
+  display: grid;
+  font-family: "FontAwesome" !important;
+  font-weight: 600 !important;
+  color: inherit;
+  place-items: center;
+}
