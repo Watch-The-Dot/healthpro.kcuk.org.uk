@@ -1,0 +1,27 @@
+# Ignore everything
+*
+
+# Except our bespoke plugins
+!plugins/
+!plugins/divi-bbpress/
+!plugins/divi-bbpress/**
+!plugins/healthpro-publications/
+!plugins/healthpro-publications/**
+!plugins/healthpro-referencing/
+!plugins/healthpro-referencing/**
+!plugins/healthpro-resources/
+!plugins/healthpro-resources/**
+
+# Except our child theme
+!themes/
+!themes/healthpro/
+!themes/healthpro/**
+
+# But ignore vendor folders
+plugins/*/vendor/
+plugins/*/node_modules/
+themes/*/node_modules/
+
+# And this file itself
+!.gitignore
+!.gitattributes
